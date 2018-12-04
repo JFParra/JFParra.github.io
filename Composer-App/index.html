@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  
+    <title>Composer App</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="editor.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Homenaje" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+  </head>
+
+
+
+    <!-- Inputs-->
+    <input type="radio" name="item" checked="checked" id="section1"/>
+    <input type="radio" name="item" id="section2"/>
+    <input type="radio" name="item" id="section3"/>
+    <input type="radio" name="item" id="section4"/>
+    <input type="radio" name="item" id="section5"/>
+    <input type="radio" name="item" id="section6"/>
+   
+    <!-- Navigation-->
+    
+    <div class="nav">
+      <div class="flex-container">
+        <label class="link" href="#" for="section1"><i class="fa fa-home"></i></label>
+        <label class="link" href="#" for="section2"><i class="fa fa-info"></i></label>
+        <label class="link" href="#" for="section3"><i class="fa fa-music"></i></label>
+        <label class="link" href="#" for="section4"><i class="fa fa-youtube-play"></i></label>
+      </div>
+    </div>
+      
+    <!-- Sections-->
+    <section>
+      <h1>Composer App</h1>
+      <br><br>
+      <h2>Music Production Web App that gives you the power of composer and musician</h2>
+
+  
+    </section>
+    <section>
+
+     <div class="book-section">
+       
+        <div class="container">
+           <div class="right">
+                <figure class="back" id="back-cover"></figure>
+                <figure class="front"></figure>
+            </div>
+            <div class="right">
+                <figure class="back""></figure>
+                <figure class="front">
+                  <p class="p1">
+                    <span style="padding-left: 10px;">These Keys corresponds to Note/Chord duration manipulation and editor shortcuts.</span>
+                    <br><br>
+                     <img src="img/computer_key_Space_bar.png" alt="Key Spacebar" style="width:120px;height:30px;position: absolute; left: 20px;">
+
+                     <span class="vert-align" style="padding-left: 150px;">Key Spacebar toggles play or pause of a previously selected/highlighted Note and/or Chord. Pausing will revert to the start of the previously selected/highlighted Note and/or Chord.</span><br><br><br><br>
+                     <span>
+                          <img src="img/computer_key_Backspace.png" alt="Key Backspace" style="width:60px;height:30px;position: absolute; left: 20px;"> 
+
+                            <span style="padding-left: 90px;"><b>OR</b></span>
+
+                          <img src="img/computer_key_Delete.png" alt="Key Delete" style="width:30px;height:30px;position: absolute; left: 120px;">
+                      </span>
+                    
+                     <span class="vert-align" style="padding-left: 45px;">If both Key Delete and Key Backspace are present, Key Delete only erases a Note and/or Chord when selected/highlighted. Else, Deletes a Note or Chord from the Editor.
+                     </span><br><br><br><br>
+
+                    <img src="img/computer_key_H.png" alt="Key H" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key H changes the current note duration to Sixteenth note.</span> <br><br><br>
+                     <img src="img/computer_key_J.png" alt="Key J" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key J changes the current note duration to Eighth note</span> <br><br><br>
+                     <img src="img/computer_key_K.png" alt="Key K" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key K changes the current note duration to Quarter note.</span> <br><br><br>
+                     <img src="img/computer_key_L.png" alt="Key L" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key L changes the current note duration to Half note.</span> <br><br><br>
+                    <img src="img/computer_key_Colon_Semicolon.png" alt="Key :/;" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key :/; changes the current note duration to Whole note.</span> 
+                  </p>
+                </figure>
+            </div>
+            <div class="right">
+                <figure class="back">
+                  <br><br>
+                    <h4>Editor Actions (Cont.)<br> & <br>Note Duration</h4>
+                </figure>
+                <figure class="front">
+                    <p class="p1">
+                     <span style="padding-left: 10px;">These Keys corresponds to Note/Chord movement within the editor and editor shortcuts.</span>
+                    <br><br>
+                    <span>
+                        <img src="img/computer_key_Arrow_Up.png" alt="Key Up" style="width:30px;height:30px;position: absolute; left: 20px;"> 
+                          <span style="padding-left: 55px;"><b>OR</b></span>
+
+                        <img src="img/computer_key_W.png" alt="Key W" style="width:30px;height:30px;position: absolute; left: 80px;">
+                    </span>
+
+                    <span class="vert-align" style="padding-left: 50px;">Key W or Key Arrow Up traverses upward between 6 Octaves when played as a Note.
+                    </span>
+                    <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Arrow_Down.png" alt="Key Down" style="width:30px;height:30px;position: absolute; left: 20px;"> 
+
+                            <span style="padding-left: 55px;"><b>OR</b></span>
+
+                          <img src="img/computer_key_S.png" alt="Key S" style="width:30px;height:30px;position: absolute; left: 80px;">
+                    </span>
+                    <span class="vert-align" style="padding-left: 50px;">Key S or Key Arrow Down traverses downward between 6 Octaves when played as a Note.
+                    </span>
+                    <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Arrow_Left.png" alt="Key Left" style="width:30px;height:30px;position: absolute; left: 20px;"> 
+
+                             <span style="padding-left: 55px;"><b>OR</b></span>
+
+                          <img src="img/computer_key_A.png" alt="Key A" style="width:30px;height:30px;position: absolute; left: 80px;">
+                    </span>
+                    <span class="vert-align" style="padding-left: 50px;">Key A or Key Arrow Left traverses leftward in the editor when played as a Note and/or Chord.
+                    </span>
+                    <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Arrow_Right.png" alt="Key Right" style="width:30px;height:30px;position: absolute; left: 20px;"> 
+
+                             <span style="padding-left: 55px;"><b>OR</b></span>
+
+                          <img src="img/computer_key_D.png" alt="Key D" style="width:30px;height:30px;position: absolute; left: 80px;">
+                    </span>
+                    <span class="vert-align" style="padding-left: 50px;">Key D or Key Arrow Right traverses rightward in the editor when played as a Note and/or Chord.
+                    </span>
+                     <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Esc.png" alt="Key Esc" style="width:30px;height:30px;position: absolute; left: 20px;">
+                        
+
+                             <span style="padding-left: 55px;"><b>OR</b></span>
+
+                            <img src="img/computer_key_Enter.png" alt="Key Enter" style="width:40px;height:30px;position: absolute; left: 80px;"> 
+                    </span>
+                    <span class="vert-align" style="padding-left: 50px;">Key Esc or Key Enter activates a currently selected/highlighted Note and/or Chord.
+                    </span>
+                    <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Ctrl.png" alt="Key Control" style="width:30px;height:30px;position: absolute; left: 20px;">
+                        
+
+                             <span style="padding-left: 55px;"><b>AND</b></span>
+
+                            <img src="img/computer_key_C.png" alt="Key C" style="width:30px;height:30px;position: absolute; left: 90px;"> 
+                    </span>
+                    <span class="vert-align" style="padding-left: 40px;">Key Ctrl and Key C copies a currently selected/highlighted Note and/or Chord.
+                    </span>
+                    <br><br><br>
+                    <span>
+                          <img src="img/computer_key_Ctrl.png" alt="Key Control" style="width:30px;height:30px;position: absolute; left: 20px;">
+                        
+
+                             <span style="padding-left: 55px;"><b>AND</b></span>
+
+                            <img src="img/computer_key_V.png" alt="Key V" style="width:30px;height:30px;position: absolute; left: 90px;"> 
+                    </span>
+                    <span class="vert-align" style="padding-left: 40px;">Key Ctrl and Key V pastes a previously selected/highlighted Note and/or Chord.
+                    </span>
+                        
+                  </p>
+
+                </figure>
+            </div>
+            <div class="right">
+                <figure class="back" >
+                   <p class="p1">
+                    <br><br>
+                    <h4>Editor Movements<br> & <br>Actions</h4>
+                  </p>
+                </figure>
+                <figure class="front">
+                  <p class="p1">
+                    <span style="padding-left: 10px;">The Keys 1 to 7 input scale-aware pitches. Since this application only uses the C Major scale,</span>
+                    <br><br>
+                     <img src="img/computer_key_num_row_1.png" alt="Key 1" style="width:30px;height:30px;position: absolute; left: 20px;">
+
+                     <span style="padding-left: 55px;">Key 1 will always be C (Varying Between 6 Octaves) when played as a Note.</span>  <br>
+                     <span style="padding-left: 55px;">Key 1 is also C when played as a Chord.</span><br>
+                    <br>
+                    <img src="img/computer_key_num_row_2.png" alt="Key 2" style="width:30px;height:30px;position: absolute;left: 20px;">
+
+                    <span style="padding-left: 55px;">Key 2 will always be D (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 2 is also D Minor when played as a Chord.</span><br><br>
+                     <img src="img/computer_key_num_row_3.png" alt="Key 3" style="width:30px;height:30px;position: absolute;left: 20px;">
+                     <span style="padding-left: 55px;">Key 3 will always be E (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 3 is also E Minor when played as a Chord.</span>
+                    <br><br>
+                    <img src="img/computer_key_num_row_4.png" alt="Key 4" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key 4 will always be F (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 4 is also F when played as a Chord.</span>
+                    <br><br>
+                     <img src="img/computer_key_num_row_5.png" alt="Key 5" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key 5 will always be G (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 5 is also G when played as a Chord.</span>
+                    <br><br>
+                     <img src="img/computer_key_num_row_6.png" alt="Key 6" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key 6 will always be A (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 6 is also A Minor when played as a Chord.</span>
+                    <br><br>
+                     <img src="img/computer_key_num_row_7.png" alt="Key 7" style="width:30px;height:30px;position: absolute;left: 20px;">
+                    <span style="padding-left: 55px;">Key 7 will always be B (Varying Between 6 Octaves) when played as a Note.</span> <br>
+                     <span style="padding-left: 55px;">Key 7 is also B Dimished when played as a Chord.</span>
+                      <br>
+                  </p>
+                </figure>
+            </div>
+            <div class="right">
+                <figure class="back">
+                  <p class="p1">
+                    <br><br><br><br>
+                    <h4>Notes</h4>
+                  </p>
+                </figure>
+                <figure class="front" id="cover">
+                    <h3>Instructions</h3>
+                </figure>
+            </div>
+        </div>
+        <button onclick="turnLeft()" style="float: left;">Prev</button> <button onclick="turnRight()" style="float: right; ">Next</button>
+        <br/>
+         
+    </div>
+    </section>
+    <section>
+      <body id="body" onLoad="main();">
+  
+    <div id="main" style="visibility:hidden">
+    
+      <!-- Editor -->
+      <div class="cell-scroll" style="grid-area:1/1">
+        <svg id="editor"></svg>
+      </div>
+      
+      <!-- Toolbox -->
+      <div id="toolbox" style="grid-area:2/1">
+      
+        <!-- Play/Stop -->
+        <button class="toolbox-button" id="button-play" style="grid-area:1/1">
+          <i class="material-icons" style="font-size:5em">play_arrow</i>
+        </button>
+        
+        <!-- Rewind -->
+        <button class="toolbox-button" id="button-rewind" style="grid-area:1/2">
+          <i class="material-icons" style="font-size:3em">fast_rewind</i>
+        </button>
+        
+        <!-- Tempo -->
+        <div style="grid-area:1/4">
+          <span style="color: black;">
+            Tempo:
+            <input class="toolbox-input" id="input-tempo" style="width:4em"></input>
+          </span>
+          <br>
+        </div>
+        
+           <!-- Notes/Chords -->
+        <button class="toolbox-tab-selected" id="tab-notes-chords" style="grid-area:1/6">
+          <span class="toolbox-tab-label">Notes/Chords</span>
+          <br>
+          <i class="material-icons"><span class="toolbox-tab-icon">music_note</span></i>
+        </button>
+      
+        <!-- Markers -->
+        <button class="toolbox-tab" id="tab-markers" style="grid-area:1/7">
+          <span class="toolbox-tab-label">Markers</span>
+          <br>
+          <i class="material-icons"><span class="toolbox-tab-icon">fullscreen</span></i>
+        </button>
+
+          <!-- Import/Export -->
+        <button class="toolbox-tab" id="tab-file" style="grid-area:1/8">
+          <span class="toolbox-tab-label">Settings</span>
+          <br>
+          <i class="material-icons"><span class="toolbox-tab-icon">settings</span></i>
+        </button>
+        
+        
+        
+      </div>
+      
+      <!-- Toolbox Drawer -->
+      <div class="toolbox-drawer" style="grid-area:3/1">
+      
+        <!-- Import/Export Drawer -->
+        <div id="toolbox-drawer-file" style="grid-area:1/1">
+        
+          <!-- Link -->
+          <div style="grid-area:1/3">
+            <span style="color: black;">Link</span><br>
+            
+            <button class="toolbox-button" id="button-save-link">
+              <span class="toolbox-tab-label">Generate</span>
+              <br>
+              <i class="material-icons"><span class="toolbox-tab-icon">insert_link</span></i>
+            </button>
+          </div>
+
+          <!-- New -->
+          <div style="grid-area:1/4">
+            <span style="color: black;">Delete</span><br>
+            
+            <button class="toolbox-button" id="button-new" style="width:5em">
+              <span class="toolbox-tab-label">Clear</span>
+              <br>
+              <i class="material-icons"><span class="toolbox-tab-icon">delete</span></i>
+            </button>
+          </div>
+
+        
+        </div>
+        
+        <!-- Markers Drawer -->
+        <div id="toolbox-drawer-markers" style="grid-area:1/1">
+          
+          <!-- Key Change -->
+          <span style="grid-area:1/1">
+            <select class="toolbox-select" id="select-key-tonic" style="width:3em"></select>
+            <select class="toolbox-select" id="select-key-scale" style="width:5em"></select>
+          </span>
+          
+          <button class="toolbox-button" id="button-insert-keych" style="grid-area:2/1">
+            <span class="toolbox-tab-label">Insert<br>Key Change</span>
+            <br>
+            <i class="material-icons"><span class="toolbox-tab-icon">text_format</span></i>
+          </button>
+          
+          <!-- Meter Change -->
+          <span style="grid-area:1/2">
+            <select class="toolbox-select" id="select-meter-num" style="width:3em"></select>
+              <span style="color: black;" > / </span>
+            <select class="toolbox-select" id="select-meter-den" style="width:3em"></select>
+          </span>
+          
+          <button class="toolbox-button" id="button-insert-meterch" style="grid-area:2/2">
+            <span class="toolbox-tab-label">Insert<br>Meter Change</span>
+            <br>
+            <i class="material-icons"><span class="toolbox-tab-icon">watch_later</span></i>
+          </button>
+          
+          <!-- Measure Break -->
+          <button class="toolbox-button" id="button-insert-measurebrk" style="grid-area:2/3">
+            <span class="toolbox-tab-label">Insert<br>Measure Break</span>
+            <br>
+            <i class="material-icons"><span class="toolbox-tab-icon">flip</span></i>
+          </button>
+          
+          <!-- Line Break -->
+          <button class="toolbox-button" id="button-insert-linebrk" style="grid-area:2/4">
+            <span class="toolbox-tab-label">Insert<br>Line Break</span>
+            <br>
+            <i class="material-icons"><span class="toolbox-tab-icon">wrap_text</span></i>
+          </button>
+          
+        </div>
+        
+        <!-- Notes/Chords Drawer -->
+        <div id="toolbox-drawer-notes-chords" style="grid-area:1/1">
+        
+          <span style="grid-area:1/1/3/2">
+            <!-- Chord Kind Drop-down Menu -->
+            <select class="toolbox-select" id="select-chord-kind" style="width:7.5em"></select>
+          </span>
+          
+          <!-- Chord Embelishments Checkboxes -->
+          <label style="grid-area:1/2" id="checkbox-embel-7"><input type="checkbox">7</label>
+          <label style="grid-area:1/3" id="checkbox-embel-9"><input type="checkbox">9</label>
+          <label style="grid-area:1/4" id="checkbox-embel-11"><input type="checkbox">11</label>
+          <label style="grid-area:1/5" id="checkbox-embel-sus2"><input type="checkbox">sus2</label>
+          <label style="grid-area:1/6" id="checkbox-embel-sus4"><input type="checkbox">sus4</label>
+          <label style="grid-area:1/7" id="checkbox-embel-add9"><input type="checkbox">add9</label>
+          
+          <!-- Chord Accidental Radio Buttons -->
+          <label style="grid-area:1/4" id="radio-accid-flat"><input type="radio" name="radio-accid">♭</label><br>
+          <label style="grid-area:1/5" id="radio-accid-nat"><input type="radio" name="radio-accid" checked>♮</label><br>
+          <label style="grid-area:1/6" id="radio-accid-sharp"><input type="radio" name="radio-accid">♯</label><br>
+          
+          <!-- Chord Buttons -->
+          <button class="toolbox-chord" id="button-chord-0" style="grid-area:2/2">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-1" style="grid-area:2/3">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-2" style="grid-area:2/4">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-3" style="grid-area:2/5">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-4" style="grid-area:2/6">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-5" style="grid-area:2/7">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          <button class="toolbox-chord" id="button-chord-6" style="grid-area:2/8">
+            <span class="toolbox-chord-label"></span><br>
+            <span class="toolbox-chord-label-bottom"></span>
+          </button>
+          
+        </div>
+      </div>
+    </div>
+  
+  
+    <script src="src/util/math.js"></script>
+    <script src="src/util/rational.js"></script>
+    <script src="src/util/list_by_point.js"></script>
+    <script src="src/util/list_by_range.js"></script>
+    <script src="src/util/theory.js"></script>
+    <script src="src/util/binaryio.js"></script>
+    <script src="src/util/string.js"></script>
+    
+    <script src="src/song/song.js"></script>
+    <script src="src/song/note.js"></script>
+    <script src="src/song/chord.js"></script>
+    <script src="src/song/meter.js"></script>
+    <script src="src/song/key.js"></script>
+    <script src="src/song/measurebreak.js"></script>
+    
+    <script src="src/editor/editor.js"></script>
+    <script src="src/editor/editor_interaction.js"></script>
+    
+    <script src="src/synth/instrument.js"></script>
+    <script src="src/synth/synth.js"></script>
+    
+    <script src="src/main.js"></script>
+    <script src="src/toolbox.js"></script>
+    <script src="src/toolbox_file.js"></script>
+    <script src="src/toolbox_markers.js"></script>
+    <script src="src/toolbox_notes_chords.js"></script>
+
+    
+    <script src="src/test/test.js"></script>
+    <script src="src/pako/pako.js"></script>
+    <script src="src/book.js"></script>
+
+  </body>
+    </section>
+    <section>
+      <h1>Videos</h1>
+    </section>
+   <!--  <section>
+      <h1>Full Screen</h1>
+    </section> -->
+    <!-- <section>
+      <h1>Full Screen</h1>
+    </section> -->
+    <!-- Fix the white space when scrolling two sections at the time-->
+    <div class="cover"></div>
+
+</html>
